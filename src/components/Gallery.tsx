@@ -63,10 +63,9 @@ export function Gallery() {
                 loop 
                 muted 
                 playsInline
+                src={item.src}
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 z-0"
-              >
-                 <source src={item.src} type={item.src.endsWith('.mov') ? "video/quicktime" : "video/mp4"} />
-              </video>
+              />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10"></div>
               
               <div className="absolute bottom-0 left-0 w-full p-6 sm:p-8 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 z-20">

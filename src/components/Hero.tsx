@@ -20,12 +20,10 @@ export function Hero() {
           loop
           muted
           playsInline
-          className="object-cover w-full h-full"
+          src="/Ovie1.mov"
+          className="object-cover w-full h-full object-[center_30%]"
           poster="/hero-fallback.jpg"
-        >
-          <source src="/Ovie1.mov" type="video/quicktime" />
-          <source src="/Ovie1.mov" type="video/mp4" />
-        </video>
+        />
         <div className="absolute inset-0 bg-[#050505]/60 z-10" />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent z-10 opacity-0 dark:opacity-100" />
       </div>
