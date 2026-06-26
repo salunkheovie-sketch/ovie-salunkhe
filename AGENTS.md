@@ -5,7 +5,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 <!-- END:nextjs-agent-rules -->
 
 # Project Context
-This is the official portfolio and career tracking platform for **Ovie Salunkhe**, a rising cricket talent from Mumbai (Under-17 circuit, MCA West Zone Championship squad). 
+This is the official portfolio and career tracking platform for **Ovie Salunkhe**, a rising cricket talent from Mumbai (Under-17 circuit, MCA U 17 squad). 
 The site tracks career milestones, match statistics, and his ongoing journey in Indian cricket.
 
 # Tech Stack & Guidelines

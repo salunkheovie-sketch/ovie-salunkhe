@@ -4,7 +4,7 @@ Welcome to the official portfolio and career tracking platform for Ovie Salunkhe
 
 ## About Ovie Salunkhe
 
-Ovie Salunkhe is a rising cricket talent from Mumbai, currently representing the city in the Under-17 circuit, including the prestigious MCA West Zone Championship squad. Known for a fierce passion for the game and sharp on-field instincts, Ovie balances rigorous academy training with high-stakes competitive matches.
+Ovie Salunkhe is a rising cricket talent from Mumbai, currently representing the city in the Under-17 circuit, including the prestigious MCA U 17 squad. Known for a fierce passion for the game and sharp on-field instincts, Ovie balances rigorous academy training with high-stakes competitive matches.
 
 ## Platform Purpose
 

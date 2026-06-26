@@ -10,8 +10,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Ovie Salunkhe | Rising Cricket Talent - U17 Mumbai",
-  description: "Ovie Salunkhe is a rising cricket talent from Mumbai, currently representing the city in the Under-17 circuit, including the prestigious MCA West Zone Championship squad. Passion. Precision. Power.",
-  keywords: ["Ovie Salunkhe", "Cricket", "Mumbai Cricket", "U17 Women's Cricket", "MCA West Zone", "Cricket Prodigy", "Sports Portfolio"],
+  description: "Ovie Salunkhe is a rising cricket talent from Mumbai, currently representing the city in the Under-17 circuit, including the prestigious MCA U 17 squad. Passion. Precision. Power.",
+  keywords: ["Ovie Salunkhe", "Cricket", "Mumbai Cricket", "U17 Women's Cricket", "MCA U 17", "Cricket Prodigy", "Sports Portfolio"],
   authors: [{ name: "Ovie Salunkhe" }, { name: "APX Teck", url: "https://apxteck.com" }],
   creator: "APX Teck",
   openGraph: {

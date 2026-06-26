@@ -89,7 +89,7 @@ export function Hero() {
         <div className="inline-block animate-[marquee_30s_linear_infinite]">
           {[...Array(2)].map((_, i) => (
             <span key={i} className="text-sm md:text-base font-mono uppercase tracking-[0.2em] text-white mx-4">
-              • U-17 CIRCUIT • MCA WEST ZONE SQUAD • ELITE TRAINING • MUMBAI CRICKET • POWER STROKES • NEXT GEN TALENT
+              • U-17 CIRCUIT • MCA U 17 SQUAD • ELITE TRAINING • MUMBAI CRICKET • POWER STROKES • NEXT GEN TALENT
             </span>
           ))}
         </div>

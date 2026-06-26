@@ -48,7 +48,7 @@ export function AboutCard() {
                   <span className="text-[var(--color-neon-green)]">02.</span> Competitive Ascent
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
-                  Currently making waves in the Under-17 circuit, Ovie has cemented her place in the prestigious MCA West Zone Championship squad. Known for her fierce passion and sharp on-field instincts, she balances intense academy training with high-stakes competitive matches. Her approach to the game is methodical; she deconstructs bowlers' strategies while maintaining an aggressive, run-scoring intent.
+                  Currently making waves in the Under-17 circuit, Ovie has cemented her place in the prestigious MCA U 17 squad. Known for her fierce passion and sharp on-field instincts, she balances intense academy training with high-stakes competitive matches. Her approach to the game is methodical; she deconstructs bowlers' strategies while maintaining an aggressive, run-scoring intent.
                 </p>
               </div>
 
@@ -87,7 +87,7 @@ export function AboutCard() {
               className="absolute bottom-8 right-8 z-20 glass-panel px-6 py-4 rounded-2xl border-l-4 border-[var(--color-neon-green)]"
             >
               <p className="text-xs text-gray-500 uppercase tracking-widest font-bold mb-1">Current Status</p>
-              <p className="text-xl font-black text-foreground">MCA West Zone U-17</p>
+              <p className="text-xl font-black text-foreground">MCA U 17</p>
             </motion.div>
           </div>
         </div>
