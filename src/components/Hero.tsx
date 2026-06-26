@@ -23,7 +23,8 @@ export function Hero() {
           className="object-cover w-full h-full"
           poster="/hero-fallback.jpg"
         >
-          <source src="/1000064635.mp4" type="video/mp4" />
+          <source src="/Ovie1.mov" type="video/quicktime" />
+          <source src="/Ovie1.mov" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-[#050505]/60 z-10" />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent z-10 opacity-0 dark:opacity-100" />
@@ -64,7 +65,7 @@ export function Hero() {
           className="mt-6 text-xl md:text-2xl font-bold tracking-widest text-[var(--color-brand-orange)] uppercase flex items-center justify-center gap-4 drop-shadow-md"
         >
           <span>Top-Order Batter</span>
-          <span className="w-2 h-2 rounded-full bg-[var(--color-neon-green)]"></span>
+          <span className="w-2 h-2 rounded-full bg-[var(--color-neon-green)] animate-pulse shadow-[0_0_10px_var(--color-neon-green)]"></span>
           <span>MCA U 17</span>
         </motion.p>
 
@@ -85,7 +86,7 @@ export function Hero() {
       </div>
 
       {/* Marquee Tape */}
-      <div className="absolute bottom-10 w-full overflow-hidden z-20 whitespace-nowrap opacity-60">
+      <div className="absolute bottom-10 w-full overflow-hidden z-20 whitespace-nowrap opacity-60 hover:opacity-100 transition-opacity duration-500">
         <div className="inline-block animate-[marquee_30s_linear_infinite]">
           {[...Array(2)].map((_, i) => (
             <span key={i} className="text-sm md:text-base font-mono uppercase tracking-[0.2em] text-white mx-4">

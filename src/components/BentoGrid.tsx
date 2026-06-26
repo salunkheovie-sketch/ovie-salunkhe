@@ -73,7 +73,7 @@ export function BentoGrid() {
         <motion.div variants={itemVariants} className="glass-panel glass-panel-hover rounded-[2rem] p-6 sm:p-8 relative overflow-hidden group md:col-span-2 md:row-span-2 flex flex-col justify-end transition-transform hover:-translate-y-2 min-h-[250px] md:min-h-0">
           <div className="absolute inset-0 z-0">
             <video autoPlay loop muted playsInline className="absolute inset-0 w-full h-full object-cover opacity-100 dark:opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700">
-               <source src="/1000064626.mp4" type="video/mp4" />
+               <source src="/Ovie13.mp4" type="video/mp4" />
             </video>
             <div className="absolute inset-0 bg-transparent dark:bg-gradient-to-t dark:from-[#050505] dark:via-[#050505]/60 dark:to-transparent z-10"></div>
           </div>

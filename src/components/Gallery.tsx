@@ -3,12 +3,15 @@
 import { motion, Variants } from "framer-motion";
 
 const media = [
-  { id: 1, src: "/1000064627.mp4", caption: "Straight Drive Execution" },
-  { id: 2, src: "/1000064629.mp4", caption: "Match Day Focus" },
-  { id: 3, src: "/1000064630.mp4", caption: "Agility Training" },
-  { id: 4, src: "/1000064631.mp4", caption: "Team Huddle" },
-  { id: 5, src: "/1000064632.mp4", caption: "Victory Moment" },
-  { id: 6, src: "/1000064633.mp4", caption: "Post Match Analysis" },
+  { id: 1, src: "/Ovie12.mov", caption: "Straight Drive Execution" },
+  { id: 2, src: "/Ovie13.mp4", caption: "Match Day Focus" },
+  { id: 3, src: "/Ovie14.mov", caption: "Agility Training" },
+  { id: 4, src: "/Ovie15.mov", caption: "Team Huddle" },
+  { id: 5, src: "/Ovie16.mp4", caption: "Victory Moment" },
+  { id: 6, src: "/Ovie17.mov", caption: "Post Match Analysis" },
+  { id: 7, src: "/Ovie18.mov", caption: "Intensive Drills" },
+  { id: 8, src: "/Ovie19.mov", caption: "Perfect Timing" },
+  { id: 9, src: "/Ovie20.mov", caption: "Fielding Practice" },
 ];
 
 const itemVariants: Variants = {
@@ -62,13 +65,13 @@ export function Gallery() {
                 playsInline
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 z-0"
               >
-                 <source src={item.src} type="video/mp4" />
+                 <source src={item.src} type={item.src.endsWith('.mov') ? "video/quicktime" : "video/mp4"} />
               </video>
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10"></div>
               
               <div className="absolute bottom-0 left-0 w-full p-6 sm:p-8 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 z-20">
-                <div className="glass-panel backdrop-blur-md bg-white/10 px-4 py-3 sm:px-6 sm:py-4 rounded-xl border-l-4 border-[var(--color-neon-green)] inline-block max-w-[90%]">
-                  <p className="text-white font-bold text-base sm:text-lg tracking-wide truncate">{item.caption}</p>
+                <div className="glass-panel backdrop-blur-md bg-white/10 px-4 py-3 sm:px-6 sm:py-4 rounded-xl border-l-4 border-[var(--color-neon-green)] inline-block max-w-[90%] shadow-[0_4px_30px_rgba(0,0,0,0.1)]">
+                  <p className="text-white font-bold text-base sm:text-lg tracking-wide truncate drop-shadow-md">{item.caption}</p>
                 </div>
               </div>
             </motion.div>

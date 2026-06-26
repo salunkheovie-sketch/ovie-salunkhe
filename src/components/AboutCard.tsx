@@ -65,7 +65,7 @@ export function AboutCard() {
           
           {/* Image Content - Spans 5 columns on large screens */}
           <div ref={ref} className="lg:col-span-5 relative h-[500px] lg:h-[700px] w-full rounded-3xl overflow-hidden shadow-[0_0_40px_rgba(255,123,0,0.15)] group sticky top-24">
-            <div className="absolute inset-0 bg-gradient-to-tr from-background via-transparent to-transparent z-10"></div>
+            <div className="absolute inset-0 bg-gradient-to-tr from-background via-transparent to-transparent z-10 pointer-events-none"></div>
             <div className="w-full h-full bg-gray-200 dark:bg-[#111] flex items-center justify-center absolute inset-0">
                <span className="text-gray-500 font-mono">/1000064605.jpg</span>
             </div>
@@ -78,6 +78,8 @@ export function AboutCard() {
                 (e.target as HTMLImageElement).style.display = 'none';
               }}
             />
+            {/* Adding an inner border ring to give the image a sharper, cleaner look */}
+            <div className="absolute inset-0 rounded-3xl border border-white/20 dark:border-white/10 pointer-events-none z-20"></div>
             
             {/* Floating Stat Badge */}
             <motion.div 

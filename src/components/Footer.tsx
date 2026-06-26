@@ -16,7 +16,7 @@ export function Footer() {
             Passion. Precision. Power. Following the journey of Mumbai's rising cricket prodigy on her path to greatness.
           </p>
           <div className="flex items-center gap-4">
-            <a href="#" className="w-12 h-12 rounded-full bg-[var(--color-panel-bg)] border border-[var(--color-panel-border)] flex items-center justify-center text-foreground hover:text-[var(--color-brand-orange)] hover:border-[var(--color-brand-orange)] transition-all hover:-translate-y-1">
+            <a href="#" className="w-12 h-12 rounded-full bg-[var(--color-panel-bg)] border border-[var(--color-panel-border)] flex items-center justify-center text-foreground hover:text-pink-500 hover:border-pink-500 transition-all hover:-translate-y-1">
               <Camera size={20} />
             </a>
             <a href="#" className="w-12 h-12 rounded-full bg-[var(--color-panel-bg)] border border-[var(--color-panel-border)] flex items-center justify-center text-foreground hover:text-blue-400 hover:border-blue-400 transition-all hover:-translate-y-1">

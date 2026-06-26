@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, ArrowRight, Camera, MessageSquare } from "lucide-react";
+import { Mail, ArrowRight, Camera, MessageSquare, Globe } from "lucide-react";
 
 export function Contact() {
   return (
@@ -39,8 +39,8 @@ export function Contact() {
               <a href="#" className="w-14 h-14 rounded-full bg-[var(--color-panel-bg)] border border-[var(--color-panel-border)] flex items-center justify-center text-foreground hover:text-blue-400 hover:border-blue-400 transition-all hover:-translate-y-1">
                 <MessageSquare size={24} />
               </a>
-              <a href="#" className="w-14 h-14 rounded-full bg-[var(--color-panel-bg)] border border-[var(--color-panel-border)] flex items-center justify-center text-foreground hover:text-[var(--color-neon-green)] hover:border-[var(--color-neon-green)] transition-all hover:-translate-y-1">
-                <MessageSquare size={24} />
+              <a href="#" className="w-14 h-14 rounded-full bg-[var(--color-panel-bg)] border border-[var(--color-panel-border)] flex items-center justify-center text-foreground hover:text-blue-600 hover:border-blue-600 transition-all hover:-translate-y-1">
+                <Globe size={24} />
               </a>
             </div>
           </div>
